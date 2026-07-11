@@ -5,10 +5,15 @@ urlpatterns = [
     path('predict/', views.predict),
     path('history/', views.get_history),
     path('image/', views.image_predict),
+
+    # NEW REAL-TIME URL FRAUD DETECTION
+    path('url-check/', views.url_predict),
+
     path('register/', views.register_user),
-path('login/', views.login_user),
-path('logout/', views.logout_user),
-path('delete/<int:id>/', views.delete_prediction),
-path('clear/', views.clear_history),
+    path('login/', views.login_user),
+    path('logout/', views.logout_user),
+    path('delete/<int:id>/', views.delete_prediction),
+    path('clear/', views.clear_history),
 ]
+
 
