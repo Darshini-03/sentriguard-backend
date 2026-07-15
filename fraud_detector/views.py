@@ -1,5 +1,7 @@
 from .models import Prediction
+from django.conf import settings
 from .url_analyzer import get_domain_age, domain_age_score
+from .validation import validate_dataset
 from .ssl_checker import check_ssl, ssl_risk_score
 from .threat_intel import check_virustotal, virustotal_risk_score
 from .safe_browsing import check_safe_browsing, safe_browsing_risk_score
@@ -266,4 +268,73 @@ def clear_history(request):
 
     return JsonResponse({"error": "Only DELETE allowed"})
 
+# ==========================================
+# MODEL VALIDATION
+# ==========================================
+# ==========================================
+# MODEL VALIDATION
+# ==========================================
+def model_validation(request):
 
+    file_path = os.path.join(settings.BASE_DIR, "validation_result.json")
+
+    # If result already exists, return it directly
+    if os.path.exists(file_path):
+        with open(file_path, "r", encoding="utf-8") as file:
+            data = json.load(file)
+
+        return JsonResponse(data, safe=False)
+
+    # Otherwise generate validation once
+    data = validate_dataset()
+
+    return JsonResponse(data, safe=False)
+
+# ==========================================
+# VALIDATION RESULT FROM SAVED JSON
+# ==========================================
+
+def validation_result(request):
+
+    file_path = os.path.join(
+        BASE_DIR,
+        "validation_result.json"
+    )
+
+    try:
+        with open(file_path, "r", encoding="utf-8") as file:
+            data = json.load(file)
+
+        return JsonResponse(data)
+
+    except FileNotFoundError:
+        return JsonResponse({
+            "error": "validation_result.json not found"
+        })
+    
+
+# ==========================================
+# VIEW SAVED VALIDATION RESULT
+# ==========================================
+def validation_result(request):
+    file_path = os.path.join(settings.BASE_DIR, "validation_result.json")
+
+    # Check whether the file exists
+    if not os.path.exists(file_path):
+        return JsonResponse({
+            "error": "validation_result.json not found",
+            "path": file_path
+        }, status=404)
+
+    try:
+        # Read JSON file
+        with open(file_path, "r", encoding="utf-8") as file:
+            data = json.load(file)
+
+        return JsonResponse(data, safe=False)
+
+    except Exception as e:
+        return JsonResponse({
+            "error": str(e)
+        }, status=500)
+    

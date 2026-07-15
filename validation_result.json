@@ -1,0 +1,608 @@
+{
+    "total": 100,
+    "correct": 98,
+    "wrong": 2,
+    "accuracy": 98.0,
+    "results": [
+        {
+            "website": "https://google.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://amazon.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://amazon.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://microsoft.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://apple.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://linkedin.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://github.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://stackoverflow.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://oracle.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://adobe.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://paypal.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://stripe.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://flipkart.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://myntra.com",
+            "actual": "Genuine",
+            "predicted": "Fraud",
+            "status": "Wrong"
+        },
+        {
+            "website": "https://naukri.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://indeed.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://monsterindia.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://glassdoor.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://coursera.org",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://udemy.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://wikipedia.org",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://youtube.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://facebook.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://instagram.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://x.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://reddit.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://quora.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://zoom.us",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://dropbox.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://canva.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://openai.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://chatgpt.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://netflix.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://spotify.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://airbnb.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://booking.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://makemytrip.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://irctc.co.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://sbi.co.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://onlinesbi.sbi",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://hdfcbank.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://icicibank.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://axisbank.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://kotak.com",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://licindia.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://uidai.gov.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://india.gov.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://passportindia.gov.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://incometax.gov.in",
+            "actual": "Genuine",
+            "predicted": "Fraud",
+            "status": "Wrong"
+        },
+        {
+            "website": "https://gst.gov.in",
+            "actual": "Genuine",
+            "predicted": "Genuine",
+            "status": "Correct"
+        },
+        {
+            "website": "https://amazon-careers-login.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://amazon-job-confirmation.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://flipkart-careers-offer.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://microsoft-job-portal.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://google-careers-update.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://linkedin-job-verification.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://naukri-registration-fee.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://indeed-job-payment.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://hr-interview-confirmation.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://online-job-apply-now.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://work-from-home-income.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://instant-job-offer.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://government-job-registration.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://bank-job-alert.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://sbi-careers-login.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://hdfc-job-offer.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://icici-verification-login.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://paypal-security-check.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://account-verification-required.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://free-laptop-job-offer.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://earn-money-fast-job.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://remote-job-payment.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://selected-candidate-fee.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://interview-result-confirm.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://company-career-update.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://employee-registration-online.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://job-placement-fee.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://salary-increase-form.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://career-confirmation.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://hr-team-contact.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://job-offer-letter-download.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://appointment-letter-verify.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://candidate-payment-portal.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://online-interview-schedule.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://urgent-job-vacancy.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://limited-job-opening.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://selected-for-job.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://job-alert-verification.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://company-offer-letter.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://career-registration.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://employment-verification.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://fake-recruitment.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://job-hiring-process.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://hr-verification-system.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://career-support-login.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://job-application-status.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://offer-letter-confirm.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://recruitment-payment.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://new-job-opening.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        },
+        {
+            "website": "https://fake-job-interview.xyz",
+            "actual": "Fraud",
+            "predicted": "Fraud",
+            "status": "Correct"
+        }
+    ]
+}
